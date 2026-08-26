@@ -1,0 +1,269 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Duncan Dev
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="bg-primary text-white text-center py-5">
+
+        <div class="container py-5">
+
+            <h1 class="display-3 fw-bold">
+                Welcome to My Website
+            </h1>
+
+            <p class="lead mt-3">
+                I create modern websites using HTML, CSS, JavaScript and Bootstrap.
+            </p>
+
+            <a href="#services" class="btn btn-light btn-lg mt-3">
+                View My Services
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center fw-bold mb-5">
+                My Services
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-md-4">
+
+                    <div class="card h-100 shadow">
+
+                        <div class="card-body text-center p-4">
+
+                            <h3 class="card-title">
+                                Web Design
+                            </h3>
+
+                            <p class="card-text">
+                                I create clean and modern website designs
+                                for businesses and individuals.
+                            </p>
+
+                            <button class="btn btn-primary">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="col-md-4">
+
+                    <div class="card h-100 shadow">
+
+                        <div class="card-body text-center p-4">
+
+                            <h3 class="card-title">
+                                Web Development
+                            </h3>
+
+                            <p class="card-text">
+                                I build responsive websites using modern
+                                web development technologies.
+                            </p>
+
+                            <button class="btn btn-success">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+<!-----------Form section--------->
+                <div class="col-md-4">
+
+                    <div class="card h-100 shadow">
+
+                        <div class="card-body text-center p-4">
+
+                            <h3 class="card-title">
+                                Graphic Design
+                            </h3>
+
+                            <p class="card-text">
+                                I design posters, business cards,
+                                social media graphics and more.
+                            </p>
+
+                            <button class="btn btn-warning">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-light py-5">
+
+        <div class="container">
+
+            <h2 class="text-center fw-bold mb-4">
+                Contact Me
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter your name"
+                            >
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                            >
+
+                        </div>
+
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Message
+                            </label>
+
+                            <textarea
+                                class="form-control"
+                                rows="5"
+                                placeholder="Write your message"
+                            ></textarea>
+
+                        </div>
+
+
+                        <button class="btn btn-primary w-100">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-0">
+            © 2026 Duncan Dev. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

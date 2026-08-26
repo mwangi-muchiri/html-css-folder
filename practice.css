@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+padding: 20px;
+background: rgba(238, 236, 236, 0.741);
+backdrop-filter: blue 10px;
+padding: 18px 42px;
+margin-inline: auto;
+max-width: 1510px;
+margin-top: 20px;
+box-shadow: 0 8px 42 rgba(0, 0, 0, 0.518);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: auto;
+}
+nav{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    z-index: 5;
+ justify-content: space-between;
+    position: relative;
+    padding: 32px 18px;
+  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a:hover{
+    color: blueviolet;
+    transition: 0.3 ease;
+}
+
+
+/*------hero section starts here------*/
+
+.hero{
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+h2{
+    font-size:60px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin: 8px 0;
+    background: linear-gradient(90deg,blue,gray);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero h2{
+    padding: 10px 5px;
+    list-style:-2px;
+    text-transform: uppercase;
+
+}
+.hero p{
+    padding: 10px 5px;
+    color: rgb(241, 241, 8);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.buttons{
+    padding: 10px 5px;
+    margin: 1px 5px;
+    gap: 40px;
+    align-items: center;
+   display: flex;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    padding: 1opx 0;
+}
